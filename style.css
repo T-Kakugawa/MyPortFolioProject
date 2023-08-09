@@ -41,7 +41,7 @@ section {
 }
 
 .about-content {
-    display: flex;
+    /* display: flex; */
 }
 
 .about-content img {
