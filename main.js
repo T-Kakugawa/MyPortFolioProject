@@ -6,6 +6,7 @@ function changeImage() {
         "../CompanyHPwithFlexBox/resources/images/shiba3.jpeg",
         "../CompanyHPwithFlexBox/resources/images/shiba4.jpeg"];
     //現在表示されている画像のインデックスを取得
+    //絶対パス取得
     let src = document.getElementById("image").getAttribute("src");
     let previousIndex;
     for(let i=0; i<images.length;i++) {
