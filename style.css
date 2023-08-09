@@ -41,17 +41,18 @@ section {
 }
 
 .about-content {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: stretch;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .about-content img {
+    grid-column: 2;
     width: 200px;
     height: auto;
 }
 
 .about-content p {
+    grid-column: 1;
     margin-left: 20px;
 }
 
