@@ -8,3 +8,5 @@ function changeImage() {
     let randomIndex = Math.floor(Math.random() * images.length);
     image.src = images[randomIndex];
 }
+const image = document.getElementById("image");
+image.addEventListener("click",changeImage);
