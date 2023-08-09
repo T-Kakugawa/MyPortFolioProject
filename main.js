@@ -9,8 +9,8 @@ function changeImage() {
     //絶対パス取得
     let src = document.getElementById("image").getAttribute("src");
     let previousIndex;
-    for(let i=0; i<images.length;i++) {
-        if(src===images[i]) {
+    for (let i = 0; i < images.length; i++) {
+        if (src === images[i]) {
             previousIndex = i;
         }
     }
@@ -18,7 +18,7 @@ function changeImage() {
     let randomIndex;
     do {
         randomIndex = Math.floor(Math.random() * images.length)
-    } while(randomIndex === previousIndex)
+    } while (randomIndex === previousIndex)
 
     const image = document.getElementById("image");
     image.src = images[randomIndex];
