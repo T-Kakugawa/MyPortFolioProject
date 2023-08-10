@@ -64,6 +64,7 @@ section {
 .logo-imgs img {
     width: 80px;
     height: 80px;
+    margin: 0 20px;
     border-radius: 10%;
 }
 
@@ -71,6 +72,18 @@ footer {
     background-color: #333;
     color: white;
     padding: 10px;
+}
+
+#projects a:hover {
+    color: blue;
+}
+
+#projects a:active {
+    color: red;
+}
+
+#projects a.clicked {
+    color: red;
 }
 
 @media (max-width: 600px) {
